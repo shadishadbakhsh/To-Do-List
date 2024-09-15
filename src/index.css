@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(213, 226, 232);
+    margin: 0px;
+}
+
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.to-do-list h1{
+    color: rgb(31, 94, 134);
+    font-size: 2.75rem;
+    cursor: default;
+}
+
+input{
+    font-size: 1.75rem;
+    border: solid 1px rgb(31, 94, 134);
+    border-radius: 8px;
+    text-align: center;
+    height: 6.5vh;
+    background-color: rgb(240, 242, 234);
+}
+
+.add-button{
+    background-color: rgb(31, 94, 134);
+    color: aliceblue;
+    font-size: 1.75rem;
+    margin: 1px;
+    border: solid 1px rgb(31, 94, 134);
+    border-radius: 8px;
+    padding: 0px 12px;
+    height: 6.5vh;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.add-button:hover{
+    background-color: aliceblue;
+    color: rgb(31, 94, 134);
+}
+
+ol{
+    padding: 0;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    background-color: rgb(240, 242, 234);
+    font-size: 1.25rem;
+    margin: 10px 0px 10px;
+    width: 80%;
+    height: 10vh;
+    border: solid 1px rgb(31, 94, 134);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px 0px;
+    cursor: default;
+    box-shadow: 3px 5px 3px rgba(31, 94, 134, 0.288);
+}
+li:hover{
+    box-shadow: 3px 5px 3px rgba(31, 94, 134, 0.913);
+}
+
+.buttons button{
+    background-color: rgb(213, 226, 232);
+    border: solid 1px rgb(31, 94, 134);
+    color: rgb(31, 94, 134);
+    margin: 0px 2px;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 9vh;
+    height: 4vh;
+    cursor: pointer;
+    
+}
+
+.delete-button:hover{
+    background-color: aliceblue;
+    color: brown;
+    border: solid 1px brown;
+}
+
+.move-button:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+
